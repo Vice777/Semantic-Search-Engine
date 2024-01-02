@@ -1,0 +1,32 @@
+indexMapping = {
+    "properties":{
+        "id":{
+            "type":"int64"
+        },
+        "name":{
+            "type":"text"
+        },
+        "decision_date":{
+            "type":"text"
+        },
+        "jurisdiction":{
+            "type":"text"
+        },
+        "head_matter":{
+            "type":"text"
+        },
+        "text":{
+            "type":"text"
+        },
+        "cleaned_text":{
+            "type":"text"
+        },
+        "Text_Embedding":{
+            "type":"dense_vector",
+            "dims":768,
+            "index":True,
+            "similarity":"cosine_similarity"
+        }
+
+    }
+}

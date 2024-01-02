@@ -1,0 +1,9 @@
+__pycache__
+.ipynb_checkpoints
+data.jsonl
+ElasticSearchCertificate
+data_reduce_new.json
+data_reduced.csv
+data_reduce.jsonl
+data_reduced.jsonl
+Text_Embedding.pt
