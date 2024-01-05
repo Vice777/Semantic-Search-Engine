@@ -7,3 +7,4 @@ data_reduced.csv
 data_reduce.jsonl
 data_reduced.jsonl
 Text_Embedding.pt
+.env
