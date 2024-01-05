@@ -8,3 +8,6 @@ data_reduce.jsonl
 data_reduced.jsonl
 Text_Embedding.pt
 .env
+.streamlit
+secrets.toml
+config.toml
